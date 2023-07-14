@@ -1,7 +1,6 @@
 package com.example.Mongodb.Aggregations;
 
 import com.example.Mongodb.Repository.modelRepo1.Model1;
-import org.springframework.beans.factory.annotation.Autowired;
 import org.springframework.data.mongodb.core.MongoTemplate;
 import org.springframework.data.mongodb.core.aggregation.Aggregation;
 import org.springframework.data.mongodb.core.aggregation.AggregationOperation;
