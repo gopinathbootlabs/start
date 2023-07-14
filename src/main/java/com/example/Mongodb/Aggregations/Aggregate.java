@@ -14,13 +14,5 @@ public class Aggregate {
     private MongoTemplate mongoTemplate;
 
 
-    public List<Model1> Aggregation() {
-        AggregationOperation match = Aggregation.match(Criteria.where("field").is("value"));
 
-        Aggregation aggregation = Aggregation.newAggregation(match);
-
-        AggregationResults<Model1> results = mongoTemplate.aggregate(aggregation, "file",Model1.class);
-        List<Model1> res =  results.getMappedResults();
-        return res;
-    }
 }
