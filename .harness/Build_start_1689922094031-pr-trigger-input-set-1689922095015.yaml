@@ -1,0 +1,14 @@
+inputSet:
+  name: Build_start_1689922094031-pr-trigger-input-set
+  identifier: Build_start_1689922094031prtriggerinputset
+  orgIdentifier: default
+  projectIdentifier: demo
+  pipeline:
+    identifier: Build_start_1689922094031
+    properties:
+      ci:
+        codebase:
+          build:
+            type: PR
+            spec:
+              number: <+trigger.prNumber>
