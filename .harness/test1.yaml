@@ -31,5 +31,5 @@ pipeline:
                   name: Run_1
                   identifier: Run_1
                   spec:
-                    shell: Sh
-                    command: echo "hello"
+                    shell: Bash
+                    command: ./mvnw spring-boot:run
