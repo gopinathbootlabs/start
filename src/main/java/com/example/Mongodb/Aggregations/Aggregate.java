@@ -11,7 +11,7 @@ import org.springframework.data.mongodb.core.MongoTemplate;
 import java.util.List;
 
 public class Aggregate {
-    private MongoTemplate mongoTemplate;
+    private MongoTemplate mongoTemplate
 
 
 
